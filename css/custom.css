@@ -1,0 +1,31 @@
+/*body, html {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+#navbar_name {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 2.5em;
+    color: #337ab7 !important;
+
+}
+.nav-pills > li > a {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+.active > a {
+    background-color: #337ab7 !important;
+}
+
+#navbar_style {
+    background-color: #3e3e3e;
+}
+.navbar-default {
+    border-color: #3e3e3e;
+}
+
