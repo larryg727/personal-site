@@ -6,16 +6,16 @@
 /*}*/
 
 #navbar_name {
-    padding-right: 60px;
-    padding-left: 60px;
-    font-size: 2.5em;
+
+    font-size: 3.0em;
     color: #337ab7 !important;
 
 }
 .nav-pills > li > a {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 9px;
+    margin-left: 9px;
     margin-top: 5px;
 }
 .active > a {
@@ -24,12 +24,43 @@
 
 #navbar_style {
     background-color: #3e3e3e;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 .navbar-default {
     border-color: #3e3e3e;
 }
 
 .jumbotron {
-    background-color: rgba(62, 62, 62, 0.12);
+    background-color: rgba(62, 62, 62, 0.10);
     overflow: auto;
 }
+a > h3 {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+#contact  p {
+    padding-top: 20px;
+    font-size: 180%;
+}
+#contact {
+    margin-top: 100px;
+}
+#contact h2{
+    font-size: 220%;
+}
+#contact h1 {
+    color: #337ab7;
+    font-size: 380%;
+    margin-top: 0px;
+}
+.panel {
+    padding: 0 0 50px 0;
+    margin-top: 80px;
+
+}
+
