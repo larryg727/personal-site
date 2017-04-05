@@ -4,6 +4,9 @@
     /*margin: 0;*/
     /*padding: 0;*/
 /*}*/
+/** {@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');*/
+    /*font-family: 'Roboto', sans-serif !important;*/
+/*}*/
 
 #navbar_name {
 
@@ -31,10 +34,11 @@
     border-color: #3e3e3e;
 }
 
-.jumbotron {
-    background-color: rgba(62, 62, 62, 0.10);
+.jumbotron, .well, .panel-heading{
+    background-color: rgba(62, 62, 62, 0.25) !important;
     overflow: auto;
 }
+
 a > h3 {
     text-decoration: none;
     color: inherit;
@@ -56,11 +60,24 @@ a:hover {
 #contact h1 {
     color: #337ab7;
     font-size: 380%;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .panel {
-    padding: 0 0 50px 0;
+    padding: 0 0 30px 0;
     margin-top: 80px;
 
 }
 
+#top_button {
+    margin-top: 40px;
+}
+
+#page_header > h1{
+    color: #337ab7;
+    font-size: 350%;
+    margin: 0;
+}
+#page_header {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
