@@ -29,3 +29,7 @@
     border-color: #3e3e3e;
 }
 
+.jumbotron {
+    background-color: rgba(62, 62, 62, 0.12);
+    overflow: auto;
+}
