@@ -15,10 +15,10 @@
 
 }
 .nav-pills > li > a {
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-right: 9px;
-    margin-left: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
     margin-top: 5px;
 }
 .active > a {
@@ -53,6 +53,7 @@ a:hover {
 #contact  p {
     padding-top: 20px;
     font-size: 180%;
+    word-wrap: break-word;
 }
 #contact a {
     font-size: inherit;
