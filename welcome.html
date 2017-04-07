@@ -11,24 +11,28 @@
 <a id="top"></a>
 <nav id="navbar_style" class="col-xs-12">
 
-    <div id="logocircle" class="col-sm-2">lg</div>
-    <div id="navbar_name" class="col-sm-3">
+    <div class="navbar-header">
+    <div id="logocircle" class="col-sm-2 col-xs-3">lg</div>
+    <div id="navbar_name" class="col-sm-3 col-xs-6">
         <span>Larry</span>Gonzales
     </div>
     <!--navbar toggle collapse-->
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar"
             aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-
-    <ul id="mynavbar" class="nav nav-pills col-sm-6 col-sm-offset-1">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav nav-pills col-sm-6 col-sm-offset-1 col-xs-12">
         <li class="active"><a href="welcome.html">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="resume.html">About Me</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
     </ul>
+</div>
 
 </nav>
 <hero class="row">
@@ -40,13 +44,13 @@
             <p class="text-center"><a class="btn btn-primary btn-lg" href="#contact" role="button">Contact me</a></p>
         </Div>
         <!--<img class="col-md-8 col-xs-12" src="http://lorempixel.com/960/500" alt="macbook">-->
-
-        <div id="carousel-example-generic" class="carousel slide col-md-8 col-xs-12" data-ride="carousel">
+    <div class="col-md-8 col-xs-12">
+        <div id="my_carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#my_carousel" data-slide-to="1"></li>
+                <li data-target="#my_carousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -76,16 +80,17 @@
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#my_carousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a class="right carousel-control" href="#my_carousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
 
+        </div>
+    </div>
     </div>
 </hero>
 <div id="contact" class="container">
