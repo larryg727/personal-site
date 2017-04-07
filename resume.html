@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-<nav id="navbar_style" class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a id="navbar_name" class="navbar-brand" href="welcome.html">Larry Gonzales</a>
+<nav id="navbar_style" class="col-xs-12">
+
+    <div class="navbar-header">
+        <div id="logocircle" class="col-sm-2 col-xs-3">lg</div>
+        <div id="navbar_name" class="col-sm-3 col-xs-6">
+            <span>Larry</span>Gonzales
         </div>
+        <!--navbar toggle collapse-->
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav nav-pills">
-                <li><a href="welcome.html">Home</a></li>
-                <li class="active"><a href="resume.html">About Me<span class="sr-only">(current)</span></a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar"
+                aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav nav-pills col-sm-6 col-sm-offset-1 col-xs-12">
+            <li><a href="welcome.html">Home</a></li>
+            <li class="active"><a href="resume.html">About Me<span class="sr-only">(current)</span></a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </div>
 
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
 </nav>
 <main class="container">
 <div id="page_header" class="well well-sm col-xs-12">
