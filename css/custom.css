@@ -154,3 +154,9 @@ section {
     background-color: rgba(62, 62, 62, 0.45);
     border-radius: 2.5em;
 }
+#skills_content {
+    visibility: hidden;
+}
+#edu_content {
+    visibility: hidden;
+}
