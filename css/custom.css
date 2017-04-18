@@ -155,8 +155,11 @@ section {
     border-radius: 2.5em;
 }
 #skills_content {
-    visibility: hidden;
+    display: none;
 }
 #edu_content {
-    visibility: hidden;
+    display: none;
+}
+.skillArrow, .eduArrow {
+    color: inherit;
 }
