@@ -1,9 +1,4 @@
-/*body, html {*/
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
+
 @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto');
 
 /*font-family: 'Roboto', sans-serif;*/
@@ -15,6 +10,7 @@
     margin: 40px 0 0 0;
     box-sizing: border-box;
     height: 60px;
+    padding: 0;
 }
 
 #navbar_name {
@@ -23,6 +19,7 @@
     color: #337ab7 !important;
 
 }
+
 span {
     color: #fff;
 }
@@ -36,6 +33,10 @@ span {
 .resumeSection {
     text-align: center;
     margin: 0 auto;
+}
+#myNavbar>ul{
+    padding: 0;
+    margin-left: 125px;
 }
 
 #logocircle {
@@ -201,9 +202,30 @@ section {
     vertical-align: top;
 }
 
+@media screen and (max-width: 767px) {
+    #myNavbar a{
+        width: 114px;
+        background-color: #3e3e3e;
+        color: #337ab7;
+        text-align: center;
+        z-index: 1;
+    }
+    #myNavbar a:hover{
+        background-color: white;
+        color: #337ab7;
+    }
+    .nav-pills>li{
+        float: right;
+        clear: both;
+    }
+    .nav-pills>li.active>a {
+        color: white !important;
+        background-color: #337ab7 !important;
+    }
+}
 
 @media screen and (max-width: 571px){
     .arrowDown:nth-of-type(even) {
-       display:none;
+       visibility: hidden;
     }
 }
