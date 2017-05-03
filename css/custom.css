@@ -26,6 +26,18 @@
 span {
     color: #fff;
 }
+.arrowDown {
+    height:25px;
+    width: 35px;
+    padding: 0;
+    margin-top: 15px
+}
+
+.resumeSection {
+    text-align: center;
+    margin: 0 auto;
+}
+
 #logocircle {
     width:100px;
     height: 100px;
@@ -69,10 +81,7 @@ span {
     background-color: rgba(62, 62, 62, 0.25) !important;
     overflow: auto;
 }
-#carouselContainer{
-    max-width: 960px; /*maximum = to img size so controls
-                         wont leak over on larger screens*/
-}
+
 a > h3 {
     text-decoration: none;
     color: inherit;
@@ -131,20 +140,23 @@ a:hover {
 section p{
     margin: 30px 0 50px 0;
 }
-section > h1
-{
+section  h1 {
     margin: 0;
     color: #337ab7 !important;
     font-size: 250%;
+    padding: 0;
 }
-section dt {
-    text-align: left !important;
-    width: 150px !important;
-}
+
 
 section {
     font-size: 1.2em;
     line-height: 1.4em;
+    padding: 0 !important;
+}
+.sectionHdr{
+    margin: 10px auto;
+    text-align: center;
+    padding: 0;
 }
 .jumbotron h2 {
     color: #337ab7;
@@ -162,7 +174,36 @@ section {
 }
 #edu_content {
     display: none;
+    list-style: none;
 }
-.skillArrow, .eduArrow {
-    color: inherit;
+#edu_content li:nth-of-type(odd){
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#edu_content em{
+
+
+}
+#edu_content li:nth-of-type(2){
+    margin-left: 67px;
+    text-indent: -67px;
+}
+#edu_content li:nth-of-type(4){
+    margin-left: 88px;
+    text-indent: -88px;
+}
+.resumeSection{
+    padding: 0;
+    width: 78%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@media screen and (max-width: 571px){
+    .arrowDown:nth-of-type(even) {
+       display:none;
+    }
 }

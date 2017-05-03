@@ -4,12 +4,14 @@
  */
 
 $(document).ready(function(){
+
     $("#education").click(function(){
-        $("#edu_content").slideDown("slow");
-        $(".eduArrow").fadeOut("slow");
+        $("#edu_content").slideToggle("slow");
+        $(".arrowDown", this).fadeToggle("slow");
     });
+
     $("#skills").click(function(){
-        $("#skills_content").slideDown("slow");
-        $(".skillArrow").fadeOut("slow");
+        $("#skills_content").slideToggle("slow");
+        $(".arrowDown", this).fadeToggle("slow");
     });
 });
