@@ -69,7 +69,10 @@ span {
     background-color: rgba(62, 62, 62, 0.25) !important;
     overflow: auto;
 }
-
+#carouselContainer{
+    max-width: 960px; /*maximum = to img size so controls
+                         wont leak over on larger screens*/
+}
 a > h3 {
     text-decoration: none;
     color: inherit;
