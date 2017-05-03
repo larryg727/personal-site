@@ -214,6 +214,16 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+footer {
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
 @media screen and (max-width: 767px) {
     #myNavbar a{
         width: 114px;
