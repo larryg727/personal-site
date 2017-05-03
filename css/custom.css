@@ -201,7 +201,19 @@ section {
     display: inline-block;
     vertical-align: top;
 }
-
+.iconCntnr {
+    text-align: center;
+}
+.icons {
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+}
+#message2u{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
 @media screen and (max-width: 767px) {
     #myNavbar a{
         width: 114px;
@@ -221,6 +233,9 @@ section {
     .nav-pills>li.active>a {
         color: white !important;
         background-color: #337ab7 !important;
+    }
+    .icons {
+        width: 70%;
     }
 }
 
