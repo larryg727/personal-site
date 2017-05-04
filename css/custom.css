@@ -150,13 +150,24 @@ section  h1 {
     font-size: 250%;
     padding: 0;
 }
-
+#summary {
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
 
 
 section {
     font-size: 1.2em;
     line-height: 1.4em;
     padding: 0 !important;
+    width: 50%;
+    display: inline-block;
+}
+.sectionContainer {
+    width: 100%;
+    margin-bottom: 500px;
+    position: relative;
 }
 .sectionHdr{
     margin: 10px auto;
@@ -173,6 +184,36 @@ section {
 .carousel-caption {
     background-color: rgba(62, 62, 62, 0.45);
     border-radius: 2.5em;
+}
+#skills {
+    width: 100%;
+    margin: 0 auto;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 50%;*/
+}
+#education {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#skillsImage {
+    width: 90%;
+    margin: 0 auto;
+    vertical-align: top;
+    position: absolute;
+    top: 55px;
+    right: 5%;
+}
+#educationImage {
+    width: 90%;
+    margin: 0 auto;
+    vertical-align: top;
+    position: absolute;
+    top: 75px;
+    left: 5%;
 }
 #skills_content {
     display: none;
@@ -266,6 +307,9 @@ footer li {
 #topBtn{
     margin-top: 10px;
 }
+.sectionImg {
+    width: 100%;
+}
 @media screen and (max-width: 767px) {
     #myNavbar a{
         width: 114px;
@@ -288,6 +332,14 @@ footer li {
     }
     .icons {
         width: 70%;
+    }
+    #skills {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #education {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
