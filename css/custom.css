@@ -38,7 +38,7 @@ span {
 }
 #myNavbar>ul{
     padding: 0;
-    margin-left: 125px;
+    margin-left: 70px;
 }
 
 #logocircle {
@@ -86,6 +86,33 @@ span {
     background-color: rgba(62, 62, 62, 0.25) !important;
     overflow: auto;
 }
+.mainSections {
+    width: 85%;
+    margin: 0px auto 220px auto;
+    text-align: center;
+
+}
+.mainSections h1 {
+    font-family: 'Lobster', cursive;
+    color: #337ab7;
+
+}
+#aboutMeSec {
+
+}
+#abMeL {
+    width:45%;
+    display:inline-block;
+    vertical-align: text-top;
+    margin: 0 10px;
+}
+#abMeR {
+    margin: 0 10px;
+    width:45%;
+    display:inline-block;
+    vertical-align: text-top;
+}
+
 
 a > h3 {
     text-decoration: none;
@@ -96,9 +123,11 @@ a:hover {
     text-decoration: none !important;
 }
 .jumbotron{
-    margin-bottom: 160px;
+    margin-bottom: 220px;
     margin-top: 50px;
 }
+
+
 #contact  p {
     padding-top: 20px;
     font-size: 180%;
@@ -193,7 +222,6 @@ section {
 #skills {
     width: 100%;
     margin: 0 auto;
-    overflow: visible;
     /*position: absolute;*/
     /*top: 0;*/
     /*left: 50%;*/
@@ -346,6 +374,19 @@ footer li {
     #education {
         width: 90%;
         margin: 0 auto;
+    }
+    #skills_content {
+        display: block;
+    }
+    #edu_content {
+        display: block;
+
+    }
+    #skillsImage {
+        display: none;
+    }
+    #educationImage{
+        display: none;
     }
 }
 

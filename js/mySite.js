@@ -7,6 +7,7 @@ $(document).ready(function() {
 
     var section;
 
+    //function to check if variable object in viewport
     $.fn.inView = function () {
         //Window Object
         var win = $(window);
@@ -21,38 +22,55 @@ $(document).ready(function() {
         return (visibleArea >= objEndPos && scrollPosition <= objEndPos ? true : false)
     };
 
+    //only runs scroll animations on screens above tis size
+    if ($(window).width() > 767) {
+        $(window).scroll(function () {
+            section = "#education";
+            if ($("#education").inView()) {
+                $("#education").animate({
+                    width: "45%",
+                    left: "50%"
+                });
+                $("#educationImage").animate({
+                    width: "45%",
+                    right: "50%",
+                    top: "20px"
+                });
+                $("#edu_content").slideDown(800);
+            }
+        });
 
-    $(window).scroll(function () {
-        section = "#education";
-        if ($("#education").inView()) {
-            $("#education").animate({
-                width: "45%",
-                left: "50%"
-            });
-            $("#educationImage").animate({
-                width: "45%",
-                right: "50%",
-                top: "20px"
-            });
-            $("#edu_content").slideDown(800);
-        }
-    });
 
+        $(window).scroll(function () {
+            section = "#skills";
+            if ($("#skills").inView()) {
+                $("#skills").animate({
+                    width: "45%"
+                });
+                $("#skillsImage").animate({
+                    width: "45%",
+                    left: "50%",
+                    top: "0px"
+                });
 
-    $(window).scroll(function(){
-        section = "#skills";
-        if( $("#skills").inView()){
-            $("#skills").animate({
-                width: "45%"
-            });
-            $("#skillsImage").animate({
-                width: "45%",
-                left: "50%",
-                top: "0px"
-            });
+                $("#skills_content").slideDown(800);
+            }
+        });
 
-            $("#skills_content").slideDown(800);
-        }
-    });
-
+        // $(window).scroll(function () {
+        //     section = "#aboutMeSec";
+        //     $("#aboutMeSec").slideDown();
+        //
+        // });
+    }
+//     }else{
+//     $(window).scroll(function () {
+//         section = "#education";
+//         $("#edu_content").slideDown(800);
+//     });
+//     $(window).scroll(function () {
+//         section = "#skills";
+//         $("#skills_content").slideDown(800);
+//     });
+// }
 });
