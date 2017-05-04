@@ -88,7 +88,7 @@ span {
 }
 .mainSections {
     width: 85%;
-    margin: 0px auto 220px auto;
+    margin: 0 auto 220px auto;
     text-align: center;
 
 }
@@ -120,7 +120,7 @@ span {
 }
 #abMeL {
     width:45%;
-    display:inline-block;
+    display: none;
     vertical-align: text-top;
     margin: 0 10px;
 }

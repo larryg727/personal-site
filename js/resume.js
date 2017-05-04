@@ -57,11 +57,6 @@ $(document).ready(function() {
             }
         });
 
-        // $(window).scroll(function () {
-        //     section = "#aboutMeSec";
-        //     $("#aboutMeSec").slideDown();
-        //
-        // });
     }
 //     }else{
 //     $(window).scroll(function () {
