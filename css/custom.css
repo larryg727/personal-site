@@ -93,11 +93,29 @@ span {
 
 }
 .mainSections h1 {
+    font-size: 5em;
     font-family: 'Lobster', cursive;
     color: #337ab7;
-
 }
-#aboutMeSec {
+.mainSections h2 {
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+    color: #337ab7;
+}
+#blogSec {
+    width: 80%;
+}
+#blogMain {
+    width:60%;
+    display: inline-block;
+    vertical-align: text-top;
+    padding-right: 30px;
+    border-right: 1px solid #CFCFCF;
+}
+#blogAside {
+    width: 30%;
+    display: inline-block;
+    vertical-align: text-top;
 
 }
 #abMeL {
