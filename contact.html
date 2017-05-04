@@ -11,7 +11,9 @@
 <nav id="navbar_style" class="col-xs-12">
 
     <div class="navbar-header col-xs-12 col-sm-2 col-md-4">
-        <a href="index.html"> <div id="logocircle" class="col-sm-2 col-xs-3">lg</div></a>
+        <a href="index.html">
+            <div id="logocircle" class="col-sm-2 col-xs-3">lg</div>
+        </a>
         <div id="navbar_name" class="col-sm-7 hidden-sm hidden-xs">
             <span>Larry</span>Gonzales
         </div>
@@ -39,46 +41,84 @@
     <div id="page_header" class="well well-sm col-xs-12">
         <h1 class="text-center">Portals to ME</h1>
     </div>
-<div id="contact" class="container">
-    <div id="message2u">
-<p>Please feel free to reach out and contact me with any questions or inquiries. I would love to hear from you.</p>
-    </div>
+    <div id="contact" class="container">
+        <div id="message2u">
+            <p>Please feel free to reach out and contact me with any questions or inquiries. I would love to hear from
+                you.</p>
+        </div>
         <div class="row">
-                <h2 class="col-md-3 col-md-offset-1 col-xs-12">Email:</h2>
-                <p class="col-md-6 col-xs-12"><a href="mailto:larrygonzales727@gmail.com">larrygonzales727@gmail.com</a>
-                </p>
-            </div>
-            <div class="row">
-                <h2 class="col-md-3 col-md-offset-1 col-xs-12">Phone:</h2>
-                <p class="col-md-6 col-xs-12">(210) 279-5731</p>
-            </div>
-            <div class="row iconCntnr">
-                <div class="icons">
+            <h2 class="col-md-3 col-md-offset-1 col-xs-12">Email:</h2>
+            <p class="col-md-6 col-xs-12"><a href="mailto:larrygonzales727@gmail.com">larrygonzales727@gmail.com</a>
+            </p>
+        </div>
+        <div class="row">
+            <h2 class="col-md-3 col-md-offset-1 col-xs-12">Phone:</h2>
+            <p class="col-md-6 col-xs-12">(210) 279-5731
+                <span id="phMsg">Call and chat or text me.</span></p>
+
+        </div>
+        <div class="row iconCntnr">
+            <div class="icons">
                 <a href="https://www.linkedin.com/in/larry-gonzales-dev" target="_blank">
                     <img src="img/social_linkedin_box_blue.png" alt="linked in">
                     <h5>linkedin.com/in/larry-gonzales-dev</h5>
                 </a>
 
-                </div>
-                <div class="icons">
+            </div>
+            <div class="icons">
                 <a href="https://www.facebook.com/larry.gonzales.dev" target="_blank">
                     <img src="img/social_facebook_box_blue.png" alt="facebook">
                     <h5>facebook.com/larry.gonzales.dev</h5>
                 </a>
-                </div>
-                <div class="icons">
+            </div>
+            <div class="icons">
                 <a href="https://twitter.com/larryg_dev" target="_blank">
                     <img src="img/social_twitter_box_blue.png" alt="twitter">
-                <h5>twitter.com/larryg_dev</h5>
+                    <h5>twitter.com/larryg_dev</h5>
                 </a>
-                </div>
             </div>
-
         </div>
+    </div>
+    <div id="formContact">
+        <h3 class="text-center">Or send me your info and I will contact you very soon.</h3>
+
+        <form action="idkyet" method="post">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <p>
+                <label for="phone">Phone number:</label>
+                <input type="number" id="phone" name="phone">
+            </p>
+            <p>
+                <label for="other">Other ways to reach you:</label>
+                <input type="text" id="other" name="other">
+
+                <select name="otherType" id="otherType">
+                    <option value="default" selected>-Specify if entered-</option>
+                    <option value="fB">FaceBook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="skype">Skype</option>
+                    <option value="facetime">Facetime</option>
+                    <option value="hangouts">Google Hangouts</option>
+                    <option value="other">Other-specify in comments</option>
+                </select>
+            </p>
+            <p>
+                <label id="infoLabel" for="info">Questions, Comments,<br>Inquiries, Ideas:</label>
+
+                <textarea id="info" name="info"></textarea>
+            </p>
+            <button type="submit" id="formSubmit" class="btn btn-primary">Submit</button>
+        </form>
+
 
     </div>
-</div>
-
 </main>
 <footer>
     <ul>
