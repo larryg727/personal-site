@@ -44,9 +44,9 @@ $(document).ready(function() {
             $("#educationImage").animate({
                 width: "45%",
                 right: "50%",
-                top: "30px"
+                top: "20px"
             });
-            $("#edu_content").slideDown("slow");
+            $("#edu_content").slideDown(800);
         }
     });
 
@@ -63,7 +63,7 @@ $(document).ready(function() {
                 top: "0px"
             });
 
-            $("#skills_content").slideDown("slow");
+            $("#skills_content").slideDown(800);
         }
     });
 

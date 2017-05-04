@@ -152,7 +152,7 @@ section  h1 {
 }
 #summary {
     width: 80%;
-    margin: 0 10%;
+    margin: 40px 10%;
     text-align: center;
 }
 
@@ -166,7 +166,8 @@ section {
 }
 .sectionContainer {
     width: 100%;
-    margin-bottom: 500px;
+    height: 350px;
+    margin-bottom: 200px;
     position: relative;
 }
 .sectionHdr{
@@ -185,9 +186,13 @@ section {
     background-color: rgba(62, 62, 62, 0.45);
     border-radius: 2.5em;
 }
+#foolery {
+    list-style: none;
+}
 #skills {
     width: 100%;
     margin: 0 auto;
+    overflow: visible;
     /*position: absolute;*/
     /*top: 0;*/
     /*left: 50%;*/
