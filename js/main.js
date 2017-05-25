@@ -16,7 +16,7 @@ $(document).ready(function () {
         //the top Scroll Position in the page
         var scrollPosition = win.scrollTop();
         //the end of the visible area in the page, starting from the scroll position
-        var visibleArea = win.scrollTop() + win.height() - 100;
+        var visibleArea = win.scrollTop() + win.height();
         //the end of the object to check
         var objEndPos = (obj.offset().top + obj.outerHeight());
         return (visibleArea >= objEndPos && scrollPosition <= objEndPos ? true : false)
@@ -27,7 +27,7 @@ $(document).ready(function () {
         $(window).scroll(function () {
             section = "#aboutMeSec";
             if ($("#aboutMeSec").inView()) {
-                $("#abMeL").slideDown();
+                $("#abMeL").slideDown("slow");
                 $("#abMeL").css("display", "inline-block");
             }
         });

@@ -120,7 +120,7 @@ span {
 }
 #abMeL {
     width:45%;
-    display: none;
+    display: inline-block;
     vertical-align: text-top;
     margin: 0 10px;
 }
